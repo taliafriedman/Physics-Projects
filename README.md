@@ -25,10 +25,9 @@ A **neutron howitzer** (²³⁹Pu + ⁹Be source) provides energetic neutrons. P
 ```
 neutron-mass-measurement/
 ├── README.md
-├── data/               # Raw .txt spectrum files (channel vs. counts, 500s runs)
-├── notebooks/
-│   ├── 01_spectra_plots.ipynb   # Exploratory spectra for all configurations
-│   └── 02_analysis.ipynb        # Calibration, Gaussian fits, and final calculation
+├── data/                  # Raw .txt spectrum files (channel vs. counts, 500s runs)
+├── 01_spectra_plots.py    # Exploratory spectra for all configurations
+├── 02_analysis.py         # Calibration, Gaussian fits, and final calculation
 └── report/
     └── Neutrons_Lab_Report.pdf
 ```
@@ -39,12 +38,11 @@ neutron-mass-measurement/
 numpy
 scipy
 matplotlib
-jupyter
 ```
 
 Install with:
 ```bash
-pip install numpy scipy matplotlib jupyter
+pip install numpy scipy matplotlib
 ```
 
 ## How to Run
