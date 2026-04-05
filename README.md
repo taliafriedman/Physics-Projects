@@ -49,12 +49,18 @@ pip install numpy scipy matplotlib jupyter
 
 ## How to Run
 
+Run each script directly with Python:
+
 ```bash
-cd notebooks
-jupyter notebook
+python 01_spectra_plots.py
+python 02_analysis.py
 ```
 
-Open `01_spectra_plots.ipynb` for the survey spectra, then `02_analysis.ipynb` for the full analysis. Make sure `DATA_DIR` at the top of each notebook points to your `data/` folder.
+Or open them in PyCharm and click the green **Run** button.
+
+Each plot opens in a popup window — close it to advance to the next one.
+
+Make sure your `.txt` data files are in a `data/` subfolder next to the scripts, and that `DATA_DIR` at the top of each file points to it.
 
 ## Data Files
 
